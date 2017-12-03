@@ -45,7 +45,7 @@ public class CallbackProgressDialog extends ProgressDialog {
   @Override
   public boolean onTouchEvent(MotionEvent event) {
     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-      sendCallback();
+      // sendCallback();
       return true;
     }
     return false;
